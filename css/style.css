@@ -515,6 +515,18 @@ textarea.form-control {
   }
 }
 
+@media (max-width: 770px) {
+  .illus3 {
+    display: none;
+  }
+  .illus4 {
+    padding-top: 70px;
+  }
+  .iam1 {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .illus2 {
     display: none;
