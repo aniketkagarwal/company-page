@@ -1,14 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
-
-
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap");
 
 body {
   background: #fff;
-  font-family: "Arimo", sans-serif;
-  /* font-weight: 200; */
-  /* font-size: 18px; */
-  /* line-height: 1.8; */
+  font-family: "Oxygen", sans-serif;
   color: black;
   width: 90%;
   padding-left: 2%;
@@ -20,16 +15,41 @@ body {
   width: 900px;
   margin-top: -130px;
   margin-left: 50px;
-  /* overflow: hidden; */
 }
 
 .illus2 {
   margin-top: -100px;
-  /* margin-left: ; */
+}
+
+.upr-text {
+  max-width: 450px;
+}
+
+.upr-text p {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.mid-text {
+  font-size: 19px;
+  line-height: 30px;
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
+  /* margin-top: -130px; */
+}
+
+.side-text {
+  max-width: 50%;
+  text-align: left;
+  /* margin: auto; */
+  margin-top: 30px;
+  font-size: 19px;
+  line-height: 30px;
 }
 
 .illus3 {
-  margin-left: 105px;
+  margin-left: 185px;
   margin-top: 40px;
 }
 
@@ -49,15 +69,9 @@ body {
   margin-left: 25% !important;
 }
 
-.illus7 {
-  width: 115%;
-  margin-left: 100px !important;
-  position: sticky;
-  margin-top: -100px !important;
-  bottom: 0 !important;
-  border: 1px solid red;
+.iam1 {
+  margin-left: 20px !important;
 }
-
 
 @media screen and (max-width: 1280px) {
   .illus1 {
@@ -65,19 +79,22 @@ body {
     width: 600px;
     margin-top: -100px;
   }
+
   .iam {
     margin-top: -50px;
   }
+
   .illus2 {
     height: 200px;
     width: 200px;
   }
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
   .iam {
     margin-left: -50px;
   }
+
   .col-md-4.upr-text .lead {
     margin-left: -50px;
   }
@@ -87,6 +104,7 @@ body {
   .iam {
     width: 150%;
   }
+
   .col-md-4.upr-text .lead {
     width: 150%;
   }
@@ -99,10 +117,12 @@ body {
     margin-left: 100px;
     margin-top: -140px;
   }
+
   .iam {
     margin-top: -50px;
-    width: 170%
+    width: 170%;
   }
+
   .col-md-4.upr-text .lead {
     width: 170%;
   }
@@ -112,6 +132,7 @@ body {
   .iam {
     width: 120%;
   }
+
   .col-md-4.upr-text .lead {
     width: 120%;
   }
@@ -121,6 +142,7 @@ body {
   .iam {
     width: 200%;
   }
+
   .col-md-4.upr-text .lead {
     width: 200%;
   }
@@ -130,22 +152,23 @@ body {
   .iam {
     width: 120%;
   }
+
   .col-md-4.upr-text .lead {
     width: 120%;
   }
 }
 
 @media (max-width: 991px) and (min-width: 770px) {
-  .illus4{
+  .illus4 {
     height: 80%;
     width: 80%;
   }
-  .illus6{
+
+  .illus6 {
     height: 90%;
     width: 90%;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .illus1 {
@@ -157,11 +180,9 @@ body {
     margin-left: -50px;
   }
 
-
   .illus3 {
     margin: 0 !important;
   }
-
 
   .illus4 {
     width: 300px;
@@ -192,9 +213,7 @@ body {
   .illus7 {
     display: none;
   }
-
 }
-
 
 ::-moz-selection {
   color: #fff;
@@ -207,9 +226,9 @@ body {
 }
 
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   text-decoration: none;
 }
 
@@ -245,7 +264,7 @@ h5 {
 .btn.uppercase {
   text-transform: uppercase;
   font-size: 15px;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 .btn.btn-primary {
@@ -304,7 +323,7 @@ textarea.form-control {
   color: #fff;
   font-weight: bold;
   line-height: 1;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .site-navbar {
@@ -324,7 +343,7 @@ textarea.form-control {
 }
 
 .site-navbar nav .menu {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .site-navbar nav .menu li a {
@@ -355,10 +374,10 @@ textarea.form-control {
 }
 
 .site-navbar .extra-info h3 {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   text-transform: uppercase;
   font-size: 13px;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   color: #adb5bd;
   margin-bottom: 30px;
 }
@@ -425,7 +444,7 @@ textarea.form-control {
 
 .site-hero-inner .heading {
   font-size: 80px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -487,10 +506,10 @@ textarea.form-control {
   -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
@@ -508,10 +527,10 @@ textarea.form-control {
   -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .site-menu-toggle span:nth-child(1) {
@@ -563,13 +582,15 @@ textarea.form-control {
   .illus3 {
     display: none;
   }
+
   .illus4 {
     padding-top: 70px;
     padding-bottom: 30px;
   }
+
   .iam1 {
     width: 100%;
-    height: 30%
+    height: 30%;
   }
 }
 
@@ -588,9 +609,9 @@ textarea.form-control {
 .visit-section .visit {
   position: relative;
   top: 0;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .visit-section .visit a {
@@ -665,9 +686,9 @@ textarea.form-control {
   position: relative;
   border: 2px solid #e6e6e6;
   border-radius: 50%;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .btn-play .icon>span {
@@ -677,14 +698,14 @@ textarea.form-control {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .btn-play .text {
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-weight: bold;
 }
 
@@ -701,7 +722,7 @@ textarea.form-control {
 .slider-section .heading,
 .blog-post-entry .heading {
   font-size: 70px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   line-height: 1;
   margin-bottom: 30px;
 }
@@ -788,7 +809,7 @@ textarea.form-control {
 
 .testimonial blockquote p {
   line-height: 1.5;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 20px;
   color: #000;
   font-style: italic;
@@ -800,9 +821,9 @@ textarea.form-control {
 
 .post .media-custom {
   background: #fff;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
 }
@@ -832,11 +853,11 @@ textarea.form-control {
 .media-custom .meta-post {
   color: #ced4da;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .owl-carousel .owl-item {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .owl-carousel .owl-item.active {
@@ -900,9 +921,9 @@ textarea.form-control {
 .owl-carousel.home-slider .owl-nav {
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .owl-carousel.home-slider .owl-nav button {
@@ -977,9 +998,9 @@ textarea.form-control {
   border: 2px solid transparent;
   outline: none !important;
   position: relative;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   background: #fff;
 }
 
@@ -1019,9 +1040,9 @@ textarea.form-control {
 
 .owl-carousel.major-caousel .owl-nav .owl-prev,
 .owl-carousel.major-caousel .owl-nav .owl-next {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   color: #495057;
 }
 
@@ -1185,7 +1206,7 @@ textarea.form-control {
 .sidebar-search .heading {
   font-size: 18px;
   margin-bottom: 30px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .post-list li {
@@ -1200,7 +1221,7 @@ textarea.form-control {
   font-size: 13px;
   color: #adb5bd;
   text-transform: uppercase;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .post-list li a .image {
@@ -1241,7 +1262,7 @@ textarea.form-control {
 }
 
 .contact-section .contact-info p {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   color: #000;
   font-size: 30px;
   margin-bottom: 30px;
@@ -1249,8 +1270,8 @@ textarea.form-control {
 
 .contact-section .contact-info p .d-block {
   font-size: 14px;
-  letter-spacing: .2em;
-  font-family: 'Arimo', sans-serif;
+  letter-spacing: 0.2em;
+  font-family: "Arimo", sans-serif;
   text-transform: uppercase;
   color: #65c0ba;
   font-weight: bold;
